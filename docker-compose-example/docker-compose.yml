@@ -10,6 +10,8 @@ services:
     volumes:
       - ../server-files:/home/steam/core-keeper-dedicated
       - ../server-data:/home/steam/core-keeper-data
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
     env_file:
       - path: core.env
         required: false
