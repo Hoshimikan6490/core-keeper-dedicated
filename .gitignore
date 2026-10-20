@@ -1,2 +1,4 @@
-/docker-compose-example/server-files
-/docker-compose-example/server-data
+docker-compose-example/server-files
+docker-compose-example/server-data
+core.env
+backups/*
