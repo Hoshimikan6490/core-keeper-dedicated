@@ -1,6 +1,6 @@
 services:
   core-keeper:
-    image: escaping/core-keeper-dedicated:latest
+    image: Hoshimikan6490/core-keeper-dedicated:v1
     container_name: core-keeper-dedicated
     restart: unless-stopped
     stop_grace_period: 2m
